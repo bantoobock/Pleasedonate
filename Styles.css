@@ -1,0 +1,45 @@
+body, html {
+	margin: 0;
+	height: 100%;
+}
+
+.bg {
+  background-image: url("https://media3.giphy.com/media/sTbuGHLkhP7ji/source.gif");
+  height: 100%; 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+@import url(//db.onlinewebfonts.com/c/7cc6719bd5f0310be3150ba33418e72e?family=Comic+Sans+MS);
+
+@font-face {
+	font-family: "Comic Sans MS"; 
+	src: url("//db.onlinewebfonts.com/t/7cc6719bd5f0310be3150ba33418e72e.eot"); 
+}
+
+.title {
+	font-family: Comic Sans MS;
+	color: rgb(234,236,230);
+	text-align: center;
+	padding-top: 100px;
+	margin-top: 0px;
+	animation: rainbow 5s infinite;
+	text-transform: uppercase;
+}
+
+@keyframes rainbow {
+         0% { color: #ff0000; }
+     8.333% { color: #ff8000; }
+    16.667% { color: #ffff00; }
+    25.000% { color: #80ff00; }
+    33.333% { color: #00ff00; }
+    41.667% { color: #00ff80; }
+    50.000% { color: #00ffff; }
+    58.333% { color: #0080ff; }
+    66.667% { color: #0000ff; }
+    75.000% { color: #8000ff; }
+    83.333% { color: #ff00ff; }
+    91.667% { color: #ff0080; }
+    100.00% { color: #ff0000; }
+}

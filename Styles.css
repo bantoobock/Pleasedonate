@@ -22,7 +22,7 @@ body, html {
 	font-family: Comic Sans MS;
 	color: rgb(234,236,230);
 	text-align: center;
-	padding-top: 100px;
+	padding-top: 80px;
 	margin-top: 0px;
 	animation: rainbow 5s infinite;
 	text-transform: uppercase;
@@ -42,4 +42,10 @@ body, html {
     83.333% { color: #ff00ff; }
     91.667% { color: #ff0080; }
     100.00% { color: #ff0000; }
+}
+
+audio {
+	padding-left: 20px;
+	padding-top: 20px;
+
 }
